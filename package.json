@@ -1,0 +1,23 @@
+{
+  "name": "area-puppeteer-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "format": "ts-node format.ts",
+    "mysql": "ts-node mysql.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "async-await-error-handling": "^0.5.2",
+    "chalk": "4.1.2",
+    "ora": "5.4.1",
+    "puppeteer": "^21.6.1",
+    "puppeteer-core": "^21.6.1"
+  }
+}
